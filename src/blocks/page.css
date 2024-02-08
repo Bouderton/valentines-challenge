@@ -1,8 +1,10 @@
 .page {
+  padding: 15px;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
   margin: 0;
   background-color: white;
+  min-width: 700px;
 }
