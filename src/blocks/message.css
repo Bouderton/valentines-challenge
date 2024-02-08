@@ -1,0 +1,14 @@
+.message {
+  max-width: 800px;
+  margin: auto;
+}
+
+.message__header {
+  font-size: 35px;
+  color: white;
+}
+
+.message__text {
+  font-size: 25px;
+  color: white;
+}
