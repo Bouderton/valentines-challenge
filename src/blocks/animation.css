@@ -1,0 +1,8 @@
+@keyframes .animation {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.animation__image {
+  width: 20%;
+}
