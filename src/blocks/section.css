@@ -1,0 +1,8 @@
+.section {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.section__image {
+  width: 20%;
+}
