@@ -1,4 +1,11 @@
-@keyframes .animation {
+@keyframes kirby {
+  from {
+  }
+  to {
+  }
+}
+
+.animation {
   display: flex;
   justify-content: flex-start;
 }
