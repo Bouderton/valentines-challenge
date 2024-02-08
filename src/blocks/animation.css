@@ -1,7 +1,12 @@
 @keyframes kirby {
-  from {
+  0% {
+    transform: rotate(10deg);
   }
-  to {
+  50% {
+    transform: rotate(-10deg);
+  }
+  100% {
+    transform: rotate(10deg);
   }
 }
 
@@ -11,5 +16,8 @@
 }
 
 .animation__image {
+  animation-name: kirby;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
   width: 20%;
 }
