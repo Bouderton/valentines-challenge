@@ -1,6 +1,6 @@
 .message {
   max-width: 800px;
-  margin: 150px auto 25px;
+  margin: 100px auto 25px;
 }
 
 .message__header {
@@ -12,3 +12,12 @@
   font-size: 25px;
   color: white;
 } */
+
+.message__response-button {
+  width: 200px;
+  padding: 25px 10px;
+  font-size: 25px;
+  border-radius: 12px;
+  border-style: none;
+  margin: 25px 25px 0;
+}
