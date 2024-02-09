@@ -19,5 +19,11 @@
   font-size: 25px;
   border-radius: 12px;
   border-style: none;
+  box-shadow: 5px 5px 5px 1px rgb(0 0 0 / 20%);
   margin: 25px 25px 0;
+}
+
+.message__response-button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
 }
