@@ -1,14 +1,14 @@
 .message {
   max-width: 800px;
-  margin: auto;
+  margin: 150px auto 25px;
 }
 
 .message__header {
-  font-size: 35px;
+  font-size: 50px;
   color: white;
 }
 
-.message__text {
+/* .message__text {
   font-size: 25px;
   color: white;
-}
+} */
