@@ -22,6 +22,7 @@
   border-style: none;
   box-shadow: 5px 5px 5px 1px rgb(0 0 0 / 20%);
   margin: 25px 25px 0;
+  z-index: 1;
 }
 .message__response-button:nth-child(1) {
   margin-left: -200px;
