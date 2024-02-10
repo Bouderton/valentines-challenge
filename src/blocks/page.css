@@ -4,8 +4,11 @@
   justify-content: center;
   align-items: center;
   margin: 0;
+  min-width: 700px;
+}
+
+.page_yes {
   background: url(https://bestanimations.com/media/many-hearts/2133733683pink-hearts-falling-animated-gif.gif)
     center no-repeat;
   background-size: 100%;
-  min-width: 700px;
 }

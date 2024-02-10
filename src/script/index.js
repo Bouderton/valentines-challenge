@@ -1,9 +1,14 @@
 const messageWrapper = document.querySelector(".message");
 const yesBtn = messageWrapper.querySelector("#yes-button");
-let noBtn = messageWrapper.querySelector("#no-button");
+const noBtn = messageWrapper.querySelector("#no-button");
+const page = document.querySelector(".page");
+
+const celebrate = function () {
+  page.classList.add("page_yes");
+};
 
 yesBtn.addEventListener("click", () => {
-  console.log("YIPPIE");
+  celebrate();
 });
 
 noBtn.addEventListener("mouseover", () => {
