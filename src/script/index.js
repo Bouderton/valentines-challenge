@@ -4,7 +4,7 @@ const noBtn = messageWrapper.querySelector("#no-button");
 const page = document.querySelector(".page");
 
 const celebrate = function () {
-  page.classList.add("page_yes");
+  page.classList.add("page_celebrate");
 };
 
 yesBtn.addEventListener("click", () => {
