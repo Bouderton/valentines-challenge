@@ -2,6 +2,12 @@ const messageWrapper = document.querySelector(".message");
 const yesBtn = messageWrapper.querySelector("#yes-button");
 const noBtn = messageWrapper.querySelector("#no-button");
 const page = document.querySelector(".page");
+const responses = ["Just Say Yes", "Why Not?", "Say Yes", "You Monster"];
+
+const generateText = function () {
+  const response_id = Math.floor(Math.random() * responses.length);
+  document.getElementById("no-button").innerHTML = responses[response_id];
+};
 
 const celebrate = function () {
   page.classList.add("page_celebrate");
@@ -22,4 +28,6 @@ noBtn.addEventListener("mouseover", () => {
 
   noBtn.style.left = randomX + "px";
   noBtn.style.top = randomY + "px";
+
+  generateText();
 });
