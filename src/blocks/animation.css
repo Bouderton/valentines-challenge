@@ -10,13 +10,32 @@
   }
 }
 
+@keyframes kirbyFlipped {
+  0% {
+    transform: rotate(-10deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  100% {
+    transform: rotate(-10deg);
+  }
+}
+
 .animation {
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
 }
 
 .animation__image {
   animation-name: kirby;
+  animation-duration: 4.5s;
+  animation-iteration-count: infinite;
+  width: 20%;
+}
+
+.animation__image-flipped {
+  animation-name: kirbyFlipped;
   animation-duration: 4.5s;
   animation-iteration-count: infinite;
   width: 20%;
