@@ -1,8 +1,12 @@
+.header {
+  margin-bottom: 50px;
+}
+
 .header__title {
   font-size: 100px;
   color: white;
   font-family: "Dancing Script", serif;
-  margin: 45px auto 100px;
+  margin: 45px auto 25px;
 }
 
 .header__subtitle {

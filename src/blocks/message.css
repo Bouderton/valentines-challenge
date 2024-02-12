@@ -1,6 +1,6 @@
 .message {
   max-width: 800px;
-  margin: 100px auto 25px;
+  margin: auto;
 }
 
 /* .message__header {
@@ -17,8 +17,10 @@
 .message__response-button {
   position: absolute;
   width: 200px;
-  padding: 25px 10px;
-  font-size: 25px;
+  padding: 20px 5px;
+  font-size: 35px;
+  font-family: "Dancing Script", serif;
+  font-weight: bold;
   border-radius: 12px;
   border-style: solid;
   border-width: 3px;
