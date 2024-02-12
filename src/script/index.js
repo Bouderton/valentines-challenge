@@ -9,6 +9,7 @@ const celebrate = function () {
 
 yesBtn.addEventListener("click", () => {
   celebrate();
+  noBtn.remove();
 });
 
 noBtn.addEventListener("mouseover", () => {
