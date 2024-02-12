@@ -5,9 +5,10 @@
   margin: 45px auto 100px;
 }
 
-/* .header__subtitle {
-  font-size: 25px;
+.header__subtitle {
+  font-size: 50px;
+  font-weight: 500;
   color: white;
-  font-family: "Georgia", serif;
-  margin: 20px auto 0;
-} */
+  font-family: "Protest Riot", serif;
+  margin: auto;
+}

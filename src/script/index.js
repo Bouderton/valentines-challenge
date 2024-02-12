@@ -2,11 +2,19 @@ const messageWrapper = document.querySelector(".message");
 const yesBtn = messageWrapper.querySelector("#yes-button");
 const noBtn = messageWrapper.querySelector("#no-button");
 const page = document.querySelector(".page");
-const responses = ["Just Say Yes", "Why Not?", "Say Yes", "You Monster"];
+const responses = [
+  "Just Say Yes",
+  "Why Not?",
+  "Say Yes",
+  "You Monster",
+  "Come On",
+  "Pleaaaase?",
+  "Pretty Pretty Please?",
+];
 
 const generateText = function () {
   const response_id = Math.floor(Math.random() * responses.length);
-  document.getElementById("no-button").innerHTML = responses[response_id];
+  document.getElementById("subtitle").innerHTML = responses[response_id];
 };
 
 const celebrate = function () {
