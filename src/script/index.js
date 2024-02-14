@@ -2,6 +2,7 @@ const messageWrapper = document.querySelector(".message");
 const yesBtn = messageWrapper.querySelector("#yes-button");
 const noBtn = messageWrapper.querySelector("#no-button");
 const page = document.querySelector(".page");
+const celebrateGif = document.querySelector(".celebrate");
 const responses = [
   "Just Say Yes",
   "Why Not?",
@@ -11,6 +12,7 @@ const responses = [
   "Pleaaaase?",
   "Pretty Pretty Please?",
   "You Can't Say No",
+  "You Know You Want To",
 ];
 
 const generateText = function () {

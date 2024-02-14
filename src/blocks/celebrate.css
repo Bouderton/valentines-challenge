@@ -1,5 +1,16 @@
 .celebrate {
   margin: auto;
-  position: absolute;
+  position: relative;
   visibility: hidden;
+}
+
+.celebrating {
+  visibility: visible;
+}
+
+.celebrate__gif {
+  position: relative;
+  bottom: 150px;
+  margin: auto;
+  width: 100%;
 }
