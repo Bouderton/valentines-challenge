@@ -26,7 +26,7 @@
   border-width: 3px;
   border-color: rgb(255, 143, 162);
   box-shadow: 5px 5px 5px 1px rgb(0 0 0 / 20%);
-  margin: 25px 25px 0;
+  margin: 75px 25px 0;
   z-index: 1;
 }
 .message__response-button:nth-child(1) {
