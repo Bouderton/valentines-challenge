@@ -10,6 +10,7 @@ const responses = [
   "Come On",
   "Pleaaaase?",
   "Pretty Pretty Please?",
+  "You Can't Say No",
 ];
 
 const generateText = function () {
