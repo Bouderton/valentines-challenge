@@ -37,7 +37,7 @@ const generateText = function () {
 
 const celebrateAction = function () {
   page.classList.add("page_celebrate");
-  celebrateGif.src = "/src/images/bear-hug.gif";
+  celebrateGif.src = "./src/images/bear-hug.gif";
   celebrate.classList.add("celebrating");
   celebrate.style.margin = "100px auto 0";
 };
