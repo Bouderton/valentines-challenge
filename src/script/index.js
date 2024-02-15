@@ -1,6 +1,7 @@
 const messageWrapper = document.querySelector(".message");
 const kirby = document.querySelector("#kirby");
 const headerText = document.querySelector(".header__title");
+const headerSubText = document.querySelector(".header__subtitle");
 const yesBtn = messageWrapper.querySelector("#yes-button");
 const noBtn = messageWrapper.querySelector("#no-button");
 const page = document.querySelector(".page");
@@ -26,7 +27,7 @@ const removeElements = function () {
   noBtn.remove();
   yesBtn.remove();
   kirby.remove();
-  responses.textContent = "";
+  headerSubText.textContent = "";
 };
 
 const generateText = function () {
@@ -36,6 +37,9 @@ const generateText = function () {
 
 const celebrateAction = function () {
   page.classList.add("page_celebrate");
+  celebrateGif.src = "./images/milk-mocha-bear-heart-love-doodle.gif";
+  celebrate.classList.add("celebrating");
+  celebrate.style.margin = "100px auto 0";
 };
 
 yesBtn.addEventListener("click", () => {
