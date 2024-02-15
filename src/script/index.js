@@ -4,7 +4,8 @@ const headerText = document.querySelector(".header__title");
 const yesBtn = messageWrapper.querySelector("#yes-button");
 const noBtn = messageWrapper.querySelector("#no-button");
 const page = document.querySelector(".page");
-const celebrateGif = document.querySelector(".celebrate");
+const celebrate = document.querySelector(".celebrate");
+const celebrateGif = document.querySelector("#celebrate-gif");
 const responses = [
   "Just Say Yes",
   "Why Not?",
@@ -33,12 +34,12 @@ const generateText = function () {
   document.getElementById("subtitle").innerHTML = responses[response_id];
 };
 
-const celebrate = function () {
+const celebrateAction = function () {
   page.classList.add("page_celebrate");
 };
 
 yesBtn.addEventListener("click", () => {
-  celebrate();
+  celebrateAction();
   celebrateHeader();
   removeElements();
 });
