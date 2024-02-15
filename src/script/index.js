@@ -1,4 +1,5 @@
 const messageWrapper = document.querySelector(".message");
+const headerText = document.querySelector(".header__title");
 const yesBtn = messageWrapper.querySelector("#yes-button");
 const noBtn = messageWrapper.querySelector("#no-button");
 const page = document.querySelector(".page");
@@ -15,6 +16,10 @@ const responses = [
   "You Know You Want To",
 ];
 
+const celebrateHeader = function () {
+  headerText.textContent = "Happy Valentine's Day!";
+};
+
 const generateText = function () {
   const response_id = Math.floor(Math.random() * responses.length);
   document.getElementById("subtitle").innerHTML = responses[response_id];
@@ -26,7 +31,10 @@ const celebrate = function () {
 
 yesBtn.addEventListener("click", () => {
   celebrate();
+  celebrateHeader();
+  responses.textContent = "";
   noBtn.remove();
+  yesBtn.remove();
 });
 
 noBtn.addEventListener("mouseover", () => {
