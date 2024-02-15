@@ -23,8 +23,7 @@
 }
 
 .animation {
-  display: flex;
-  justify-content: space-between;
+  position: relative;
 }
 
 .animation__image {
@@ -32,6 +31,9 @@
   animation-duration: 4.5s;
   animation-iteration-count: infinite;
   width: 20%;
+  position: absolute;
+  bottom: 50px;
+  left: 50px;
 }
 
 .animation__image-flipped {
