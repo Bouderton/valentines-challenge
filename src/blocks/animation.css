@@ -23,17 +23,16 @@
 }
 
 .animation {
-  position: relative;
+  display: flex;
+  justify-content: space-between;
 }
 
 .animation__image {
+  margin-top: 50px;
   animation-name: kirby;
   animation-duration: 4.5s;
   animation-iteration-count: infinite;
   width: 20%;
-  position: absolute;
-  bottom: 50px;
-  left: 50px;
 }
 
 .animation__image-flipped {
