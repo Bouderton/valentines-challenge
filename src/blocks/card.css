@@ -25,3 +25,10 @@
   animation-duration: 1.25s;
   animation-iteration-count: 1;
 }
+
+.credit__text {
+  font-size: 20px;
+  color: white;
+  font-family: "Dancing Script", serif;
+  font-weight: 200;
+}
